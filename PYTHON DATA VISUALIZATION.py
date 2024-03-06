@@ -115,7 +115,7 @@ fig = px.bar(avg_temp_per_country, x='COUNTRY', y='TAVG', title='Average Tempera
 
 # Customize the axes labels
 fig.update_xaxes(title_text='Country')
-fig.update_yaxes(title_text='Average Temperature (°C)')
+fig.update_yaxes(title_text='Average Temperature(°C)')
 
 # Show the chart
 fig.show()
